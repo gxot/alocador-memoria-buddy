@@ -1,5 +1,8 @@
 # Alocador Memória Buddy
 
+## LINKS
+Youtube: https://youtu.be/47JSitYxhdQ
+
 ## Como compilar Com Terminal
 - Localize a pasta src
 - Abra o terminal nesta pasta e digite: javac *.java
@@ -32,7 +35,7 @@ Quando um programa precisa ser alocado, o sistema:
 
 - Cada divisão gera dois novos blocos chamados buddies.
 
-Quando um programa é removido, o sistema tenta recombinar (coalescer) o bloco com seu buddy se ambos estiverem livres.
+- Quando um programa é removido, o sistema tenta recombinar (coalescer) o bloco com seu buddy se ambos estiverem livres.
 
 ### Estrutura de dados usada
 
